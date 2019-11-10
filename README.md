@@ -3,7 +3,7 @@ Calculator with REST
 
 ## How to Run
 
-This is maven based project, developed using Spring Boot framework(2.2.1.RELEASE). I have used IntelliJIDEA to develop this. 
+This is maven based project, developed using Spring Boot framework(2.2.1.RELEASE) and Java 8. I have used IntelliJIDEA to develop this. 
 We can simply run this application with the following command:
 
 *mvn spring-boot:run*

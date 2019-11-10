@@ -8,6 +8,21 @@ We can simply run this application with the following command:
 
 *mvn spring-boot:run*
 
+## REST End Points
+
+- /add/{a}/{b}
+- /subtract/{a}/{b}
+- /multiply/{a}/{b}
+- /divide/{a}/{b}
+- /square/{a}
+- /factorial/{a}
+- /prime/{a}
+
+Examples:
+- http://localhost:8080/add/12/15
+- http://localhost:8080/subtract/34.33/24.89
+and so on.
+
 ## Project Structure
 
 * The project follows maven based project structure. The source files are located in _src/main/java/_.

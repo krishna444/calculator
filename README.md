@@ -23,6 +23,10 @@ Examples:
 - http://localhost:8080/subtract/34.33/24.89
 and so on.
 
+Note:
+- For add, subtraction, multiplication, square and division, a and b can be any number.
+- For factorial and prime, requires a positive integer. 
+
 ## Project Structure
 
 * The project follows maven based project structure. The source files are located in _src/main/java/_.
@@ -35,7 +39,10 @@ and so on.
 * _CalculatorServiceTest.java_ => Tests the calculator service
 * _RestCalculatorControllerTest.java_ => Test class for calculator Rest controller  
 
-
-
+## TODOs
+* The parameters need to be validated. If a string parameter is supplied, does not work.
+* The integer parameters should not be beyond integer range.
+* Factorial calculation algorithm(recursive) generates stackoverflow if the supplied value is large.
+* Prime number check algorithm could be optimized (?)
 
 
